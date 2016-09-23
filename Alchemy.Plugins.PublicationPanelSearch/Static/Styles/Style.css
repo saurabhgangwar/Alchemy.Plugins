@@ -1,0 +1,7 @@
+﻿ input#AlchemyPublicationSearchTextBox {
+ width: 100%;
+ background: url('${ImgUrl}SearchIcon16px.png') right no-repeat;
+ border: solid 1px #ccc;
+ margin: 10px 0 10px 0;
+ }
+

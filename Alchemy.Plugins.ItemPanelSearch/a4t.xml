@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<plugin xmlns:c="http://www.alchemywebstore.com/configuration/definitions" xmlns="http://www.alchemywebstore.com/">
+  <name>ItemsPanelSearch</name>
+  <description><![CDATA[ItemsPanelSearch pluging places a searchbox just above the item list in the right panel in tridion GUI. User can search/filter the results by typing in the search box]]></description>
+  <settings>
+    <client>
+      <!--Set this to true, if you want to search all information presented in columns -->
+      <!--Set this to false, if you want to search "Titles" only -->
+      <SearchAllInformation>false</SearchAllInformation>
+    </client>
+  </settings>
+</plugin>

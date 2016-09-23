@@ -1,0 +1,8 @@
+﻿ input#AlchemyItemsPanelSearchTextBox {
+ width: 100%;
+ background: url('/WebUI/Editors/Alchemy/Plugins/ItemsPanelSearch/assets/img/SearchIcon16px.png') left no-repeat;
+ border: solid 1px #ccc;
+ margin: 10px 0 10px 0;
+ padding-left: 18px;
+ }
+
