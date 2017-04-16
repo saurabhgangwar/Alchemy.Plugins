@@ -1,0 +1,4 @@
+﻿#RibbonToolbarGoToLocationButton.button .image
+{
+    background-image: url('${ImgUrl}GoToLocation-32px.png');
+}
