@@ -30,8 +30,12 @@ namespace Alchemy.Plugins.GoToLocation.Config
             Dependencies.Add<GoToLocationResouceGroup>();
 
             // apply the extension to a specific view.
-           Apply.ToView(Constants.Views.ComponentView);
-           Apply.ToView(Constants.Views.PageView);
+            Apply.ToView(Constants.Views.ComponentView);
+            Apply.ToView(Constants.Views.PageView);
+            Apply.ToView(Constants.Views.SchemaView);
+            Apply.ToView(Constants.Views.ComponentTemplateView);
+            Apply.ToView(Constants.Views.PageTemplateView);
+            Apply.ToView("TemplateBuildingBlockView");
            
         }
     }

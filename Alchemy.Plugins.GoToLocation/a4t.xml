@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <plugin xmlns:c="http://www.alchemywebstore.com/configuration/definitions" xmlns="http://www.alchemywebstore.com/">
   <name>GoToLocation</name>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[This plugin adds a Ribbon Tool Bar Button 'Go To Location' to the Repository Local Items Views including Page, Component, Component Templates, Page Templates and Template Building Blocks. On clicking the button SDL Web redirects the user to the location of the item.]]></description>
 </plugin>
