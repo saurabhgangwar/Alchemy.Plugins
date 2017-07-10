@@ -1,0 +1,12 @@
+﻿.localizeCommenterPopupButton {
+    /*background-color: #E2E2E2;*/
+    background-position: center;
+    padding: 1px 0;
+    margin: 1px;
+    cursor: pointer;
+}
+
+    .localizeCommenterPopupButton:hover {
+        background-color: #F4F4F4;
+        border: 1px solid #000000;
+    }

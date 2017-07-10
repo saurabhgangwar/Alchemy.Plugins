@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<plugin xmlns:c="https://www.alchemywebstore.com/configuration/definitions" xmlns="http://www.alchemywebstore.com/">
+  <name>Localize_Commenter</name>
+  <description><![CDATA[This Alchemy Plugin allows user to put Comments while localizing a item. These Comments could be be viewed and Edited in a Tab inside Item view. ]]></description>
+  <references />
+  <frameworkVersion>0.8.3.0</frameworkVersion>
+</plugin>
