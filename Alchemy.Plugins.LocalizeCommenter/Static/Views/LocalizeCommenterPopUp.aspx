@@ -1,18 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Tridion.Web.UI.Editors.CME.Views.Page" %>
-
-<html xmlns="http://www.w3.org/1999/xhtml" ng-app="LocalizerCommenterPopUp">
+﻿<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <cc:tridionmanager runat="server" editor="CME">
-  <dependencies runat="server"> 
-   <dependency runat="server">Tridion.Web.UI.Editors.CME</dependency>
-   <dependency runat="server">Tridion.Web.UI.Editors.CME.commands</dependency>
-   <%--<dependency runat="server">Tridion.Web.UI.Editors.CME.Views.Sites</dependency>--%>
-   <dependency runat="server">Alchemy.Resources.Libs.JQuery</dependency>
-   <dependency runat="server">Alchemy.Plugins.Localize_Commenter.Resources.LocalizeCommenterPopUpResources</dependency>
-  </dependencies>
- </cc:tridionmanager>
-    
+    <link rel='shortcut icon' type='image/x-icon' href='${ImgUrl}favicon.png' />
 </head>
 <body>
     <form>

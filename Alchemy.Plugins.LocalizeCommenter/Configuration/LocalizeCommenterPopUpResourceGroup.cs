@@ -9,13 +9,21 @@ namespace Alchemy.Plugins.LocalizeCommenter.Configuration
 {
     public class LocalizeCommenterPopUpResourceGroup : ResourceGroup
     {
-        public LocalizeCommenterPopUpResourceGroup()
-            : base("LocalizeCommenterPopUpResources")
+        public LocalizeCommenterPopUpResourceGroup() : base("LocalizeCommenterPopUpResources")
         {
             AddFile("LocalizeCommenterPopUp.js");
             AddFile("LocalizeCommenter.css");
+
+            // Since Alchemy comes with several libraries I can reference JQuery this way and avoid having
+            // to add it myself
+            Dependencies.AddLibraryJQuery();
+            Dependencies.Add("Tridion.Web.UI.Editors.CME");
+            Dependencies.Add("Tridion.Web.UI.Editors.CME.commands");
+
             AddWebApiProxy();
-           
+
+            AttachToView("LocalizeCommenterPopUp.aspx");
+
         }
     }
 }
