@@ -26,51 +26,55 @@
     // Called when command is executed
     // -------------------------------------------
         execute: function () {
-            //p.popup.open();
-            var filteredListControl = $display.getView().getFilteredListControl();
-            var listControl = filteredListControl.getList();
-            var xmlDoc = listControl.getContent();
-            //searchXML = cnt.documentElement;
+            // Get the view
+            var tridionView = $display.getView();
+            var xmlDoc;
+            var columns;
 
-
+            if (tridionView.getId() == "DashboardView") {
+                var filteredListControl = tridionView.getFilteredListControl();
+                var listControl = filteredListControl.getList();
+                xmlDoc = listControl.getContent();
+                columns = ["ID", "Title", "Type", "FromPub", "IsNew", "IsPublished", "Modified", "IsShared", "IsLocalized"];
+            }
+            else if (tridionView.getId() == "PublishQueueView")
+            {
+                var publishTransList = tridionView._getListPublishTransactions();
+                xmlDoc = publishTransList.getXmlDocument();
+                columns = ["ID", "Title", "ItemID", "ItemType", "State", "StateChangeDate", "TargetTypeID", "TargetTypeTitle", "Publication", "PublicationTarget", "ItemPath", "Action", "ScheduleDate", "UserId", "User", "UserDescription", "Priority", "PublisherHost", "IsCompleted", "Managed", "Allow", "Deny", "AllowedActions", "DeniedActions", "RenderingTime", "ResolvingTime", "TotalExecutionTime", "Type"];
+            }
+            
+           
             if (confirm('Do you want to export?')) {
-                this.covertXMLToCSV(xmlDoc);
+                this.covertXMLToCSV(xmlDoc, columns);
             }
         },
 
-
-    covertXMLToCSV: function (xmlDoc) {
-        var i;
-
+    //-------------- Function:covertXMLToCSV------
+    // Converts the item list xml to CSV format
+    // -------------------------------------------
+    covertXMLToCSV: function (xmlDoc, columns) {
+        
         var csv = [];
 
-        var tableHeader = "ID,Title,Type,FromPub,IsNew,IsPublished,Modified,IsShared,IsLocalized";
+        var tableHeader = columns.join();
 
         csv.push(tableHeader);
         
-        var x = xmlDoc.getElementsByTagName("tcm:Item");
-        
-        for (i = 0; i < x.length; i++) {
-            if (x[i].getAttribute("Type") != null) {
-                var row = x[i].getAttribute("ID") +
-                    "," +
-                    x[i].getAttribute("Title") +
-                    "," +
-                    x[i].getAttribute("Type") +
-                    "," +
-                    x[i].getAttribute("FromPub") +
-                    "," +
-                    x[i].getAttribute("IsNew") +
-                    "," +
-                    x[i].getAttribute("IsPublished") +
-                    "," +
-                    x[i].getAttribute("Modified") +
-                    "," +
-                    x[i].getAttribute("IsShared") +
-                    "," +
-                    x[i].getAttribute("IsLocalized");
+        var item = xmlDoc.getElementsByTagName("tcm:Item");
 
-                csv.push(row);
+        var i;
+        for (i = 0; i < item.length; i++) {
+            if (item[i].getAttribute("Type") != null) {
+                var rowArray = [];
+                var j;
+                for (j = 0; j < columns.length; j++) {
+                    var attribute = columns[j];
+                    var attributeValue = item[i].getAttribute(attribute);
+                    if (attributeValue != null) { attributeValue = attributeValue.replace(',', '|');}
+                    rowArray.push(attributeValue);
+                }
+                csv.push(rowArray.join());
             }
         }
         if (csv.length > 1) {
@@ -80,7 +84,9 @@
             $messages.registerNotification("ExportItemList: There are no items to export.");
         }
     },
-
+    //-------------- Function:downloadCSV------
+    // Downloads the file
+    // -------------------------------------------
     downloadCSV: function (csv, filename) {
         var csvFile;
         var downloadLink;

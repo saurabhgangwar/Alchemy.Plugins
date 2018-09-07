@@ -38,6 +38,9 @@ namespace Alchemy4Tridion.Plugins.ExportItemList.Config
             // Apply the extension to Dashboard view
             Apply.ToView(Constants.Views.DashboardView, "DashboardToolbar");
 
+            Apply.ToView("*", "Toolbar");
+
+
         }
     }
 }
