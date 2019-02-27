@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<plugin xmlns:c="https://www.alchemywebstore.com/configuration/definitions" xmlns="http://www.alchemywebstore.com/">
-  <name>Export_Item_List</name>
-  <description><![CDATA[The plugin places a Ribbon Toolbar Button titled "Export Item List" in Home group. By clicking the button, user can export the items presented in right panel in a csv file.
-    This plugin works for results of adnavced search as well.]]></description>
-  <references />
-  <settings />
-  <frameworkVersion>1.0.1.1</frameworkVersion>
-</plugin>

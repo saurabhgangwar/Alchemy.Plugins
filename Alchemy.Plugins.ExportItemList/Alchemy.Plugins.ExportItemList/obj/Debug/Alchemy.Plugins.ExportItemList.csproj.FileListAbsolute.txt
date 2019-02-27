@@ -1,0 +1,46 @@
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\Alchemy.Plugins.ExportItemList.dll.config
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\Alchemy.Plugins.ExportItemList.dll
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\Alchemy.Plugins.ExportItemList.pdb
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\Alchemy4Tridion.Plugins.Clients.CoreService.dll
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\Alchemy4Tridion.Plugins.dll
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\Newtonsoft.Json.dll
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\System.Net.Http.Formatting.dll
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\System.Web.Http.dll
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\Tridion.ContentManager.CoreService.Client.dll
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\Alchemy4Tridion.Plugins.pdb
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\Alchemy4Tridion.Plugins.xml
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\Newtonsoft.Json.xml
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\System.Net.Http.Formatting.xml
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\bin\System.Web.Http.xml
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.csprojAssemblyReference.cache
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.Resources.resources
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.csproj.GenerateResource.cache
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.csproj.CoreCompileInputs.cache
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.csproj.CopyComplete
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.dll
+C:\DATA\Projects\TDS-Hackathon-2018\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.pdb
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\Alchemy.Plugins.ExportItemList.dll.config
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\Alchemy.Plugins.ExportItemList.dll
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\Alchemy.Plugins.ExportItemList.pdb
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\Alchemy4Tridion.Plugins.Clients.CoreService.dll
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\Alchemy4Tridion.Plugins.dll
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\Newtonsoft.Json.dll
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\System.Net.Http.Formatting.dll
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\System.Web.Http.dll
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\Tridion.ContentManager.CoreService.Client.dll
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\Alchemy4Tridion.Plugins.pdb
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\Alchemy4Tridion.Plugins.xml
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\Newtonsoft.Json.xml
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\System.Net.Http.Formatting.xml
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\bin\System.Web.Http.xml
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.csprojAssemblyReference.cache
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.Resources.resources
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.csproj.GenerateResource.cache
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.csproj.CoreCompileInputs.cache
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.csproj.CopyComplete
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.dll
+C:\DATA\Projects\Alchemy Plugins GIT\Alchemy.Plugins\Alchemy.Plugins.ExportItemList\Alchemy.Plugins.ExportItemList\obj\Debug\Alchemy.Plugins.ExportItemList.pdb

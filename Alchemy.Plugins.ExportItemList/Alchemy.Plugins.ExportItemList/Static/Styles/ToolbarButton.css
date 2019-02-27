@@ -1,0 +1,9 @@
+﻿
+/* main icon in full ribbon mode */
+.ribbontoolbar #ExportItemList.button .image, .ribbontoolbar #ExportItemList.button .image {
+    background-image: url('${ImgUrl}export-item-list.32x32.png');
+}
+/* main icon in minimized ribbon mode */
+.ribbontoolbar.minimized #ExportItemList.button .image, .ribbontoolbar.minimized #ExportItemList.button .image {
+    background-image: url('${ImgUrl}export-item-list.16x16.png');
+}
